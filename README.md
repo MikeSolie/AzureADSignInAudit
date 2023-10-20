@@ -4,14 +4,9 @@ The SignInAudit PowerShell script is designed to retrieve Azure Active Directory
 
 ## Usage
 
-`.\SignInAudit.ps1`
+`.\AzureADAudit.ps1`
 
-The script will retrieve the logs for the last 24 hours. 
-
-## Getting Started
-
-Ensure that the AzureAD module is installed. If not, it can be installed using this command from and admin PowerShell:
-`Install-Module -Name AzureADPreview`
+The script will retrieve the logs for the last 24 hours and checks the if AzureAD Preview is installed. If it is not, it asks if you would like to install. 
 
 ## Output Options 
 
